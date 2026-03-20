@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_pkg</name>
+  <version>0.0.1</version>
+  <description>Robot navigation and cannon control</description>
+  <maintainer email="you@email.com">Your Name</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
