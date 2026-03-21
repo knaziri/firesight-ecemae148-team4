@@ -1,0 +1,17 @@
+[1.451s] Invoking command in '/home/kavon/firetruck_ws/build/overhead_pkg': PYTHONPATH=/home/kavon/firetruck_ws/build/overhead_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kavon/firetruck_ws/build/overhead_pkg/build --no-deps symlink_data
+[2.049s] running develop
+[2.399s] running egg_info
+[2.400s] writing overhead_pkg.egg-info/PKG-INFO
+[2.401s] writing dependency_links to overhead_pkg.egg-info/dependency_links.txt
+[2.401s] writing entry points to overhead_pkg.egg-info/entry_points.txt
+[2.401s] writing requirements to overhead_pkg.egg-info/requires.txt
+[2.402s] writing top-level names to overhead_pkg.egg-info/top_level.txt
+[2.407s] reading manifest file 'overhead_pkg.egg-info/SOURCES.txt'
+[2.409s] writing manifest file 'overhead_pkg.egg-info/SOURCES.txt'
+[2.412s] running build_ext
+[2.413s] Creating /home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages/overhead-pkg.egg-link (link to .)
+[2.415s] Installing overhead_node script to /home/kavon/firetruck_ws/install/overhead_pkg/lib/overhead_pkg
+[2.416s] 
+[2.416s] Installed /home/kavon/firetruck_ws/build/overhead_pkg
+[2.416s] running symlink_data
+[2.536s] Invoked command in '/home/kavon/firetruck_ws/build/overhead_pkg' returned '0': PYTHONPATH=/home/kavon/firetruck_ws/build/overhead_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kavon/firetruck_ws/build/overhead_pkg/build --no-deps symlink_data

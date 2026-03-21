@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000861] (overhead_pkg) JobQueued: {'identifier': 'overhead_pkg', 'dependencies': OrderedDict()}
+[0.001541] (overhead_pkg) JobStarted: {'identifier': 'overhead_pkg'}
+[0.099144] (-) TimerEvent: {}
+[0.200009] (-) TimerEvent: {}
+[0.300681] (-) TimerEvent: {}
+[0.401324] (-) TimerEvent: {}
+[0.502129] (-) TimerEvent: {}
+[0.603028] (-) TimerEvent: {}
+[0.703941] (-) TimerEvent: {}
+[0.804714] (-) TimerEvent: {}
+[0.905827] (-) TimerEvent: {}
+[1.007299] (-) TimerEvent: {}
+[1.107880] (-) TimerEvent: {}
+[1.208557] (-) TimerEvent: {}
+[1.309218] (-) TimerEvent: {}
+[1.409895] (-) TimerEvent: {}
+[1.510867] (-) TimerEvent: {}
+[1.548700] (overhead_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kavon/firetruck_ws/build/overhead_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kavon/firetruck_ws/build/overhead_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kavon', 'SSH_CLIENT': '2600:382:6225:97e7:85ed:7af0:3332:37ef 57244 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/kavon', 'OLDPWD': '/home/kavon', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/kavon/firetruck_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kavon', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/kavon/firetruck_ws/install/overhead_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/kavon/firetruck_ws/build/overhead_pkg', 'SSH_CONNECTION': '2600:382:6225:97e7:85ed:7af0:3332:37ef 57244 2600:382:6225:97e7:b2f4:a0a2:fc08:e714 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kavon/firetruck_ws/build/overhead_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages:/home/kavon/firetruck_ws/build/overhead_pkg:/home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.610993] (-) TimerEvent: {}
+[1.711844] (-) TimerEvent: {}
+[1.812643] (-) TimerEvent: {}
+[1.913300] (-) TimerEvent: {}
+[2.014120] (-) TimerEvent: {}
+[2.114839] (-) TimerEvent: {}
+[2.158795] (overhead_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.214982] (-) TimerEvent: {}
+[2.316015] (-) TimerEvent: {}
+[2.416772] (-) TimerEvent: {}
+[2.510601] (overhead_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.511904] (overhead_pkg) StdoutLine: {'line': b'writing overhead_pkg.egg-info/PKG-INFO\n'}
+[2.512215] (overhead_pkg) StdoutLine: {'line': b'writing dependency_links to overhead_pkg.egg-info/dependency_links.txt\n'}
+[2.512790] (overhead_pkg) StdoutLine: {'line': b'writing entry points to overhead_pkg.egg-info/entry_points.txt\n'}
+[2.513409] (overhead_pkg) StdoutLine: {'line': b'writing requirements to overhead_pkg.egg-info/requires.txt\n'}
+[2.513745] (overhead_pkg) StdoutLine: {'line': b'writing top-level names to overhead_pkg.egg-info/top_level.txt\n'}
+[2.516880] (-) TimerEvent: {}
+[2.520262] (overhead_pkg) StdoutLine: {'line': b"reading manifest file 'overhead_pkg.egg-info/SOURCES.txt'\n"}
+[2.523111] (overhead_pkg) StdoutLine: {'line': b"writing manifest file 'overhead_pkg.egg-info/SOURCES.txt'\n"}
+[2.527438] (overhead_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.527938] (overhead_pkg) StdoutLine: {'line': b'Creating /home/kavon/firetruck_ws/install/overhead_pkg/lib/python3.10/site-packages/overhead-pkg.egg-link (link to .)\n'}
+[2.530223] (overhead_pkg) StdoutLine: {'line': b'Installing overhead_node script to /home/kavon/firetruck_ws/install/overhead_pkg/lib/overhead_pkg\n'}
+[2.530907] (overhead_pkg) StdoutLine: {'line': b'\n'}
+[2.531134] (overhead_pkg) StdoutLine: {'line': b'Installed /home/kavon/firetruck_ws/build/overhead_pkg\n'}
+[2.531332] (overhead_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.616984] (-) TimerEvent: {}
+[2.653011] (overhead_pkg) CommandEnded: {'returncode': 0}
+[2.719076] (-) TimerEvent: {}
+[2.722153] (overhead_pkg) JobEnded: {'identifier': 'overhead_pkg', 'rc': 0}
+[2.726155] (-) EventReactorShutdown: {}
